@@ -1,8 +1,12 @@
 package ru.netology.rest.model;
 
+import jakarta.validation.constraints.NotBlank;
+
 public class User {
 
+    @NotBlank
     private String user;
+    @NotBlank
     private String password;
 
     public User() {
