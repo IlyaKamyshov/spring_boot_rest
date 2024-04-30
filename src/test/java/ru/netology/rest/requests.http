@@ -1,0 +1,24 @@
+GET http://localhost:8080/authorize?user=admin&password=admin
+Accept: application/json
+
+###
+
+GET http://localhost:8080/authorize?user=poweruser&password=poweruser
+Accept: application/json
+
+###
+
+GET http://localhost:8080/authorize?user=user&password=user
+Accept: application/json
+
+###
+
+GET http://localhost:8080/authorize?user=admin
+Accept: application/json
+
+###
+
+GET http://localhost:8080/authorize?user=joebiden&password=please_move_all_that_back,_by_the_way
+Accept: application/json
+
+###
