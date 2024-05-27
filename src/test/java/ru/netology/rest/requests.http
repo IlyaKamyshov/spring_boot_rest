@@ -22,3 +22,8 @@ GET http://localhost:8080/authorize?user=joebiden&password=please_move_all_that_
 Accept: application/json
 
 ###
+
+GET http://localhost:8080/authorize?user=joebiden
+Accept: application/json
+
+###
